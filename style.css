@@ -64,7 +64,6 @@
 }
 #team_header {
     text-align:center;
-    color:#ffffff;
     font-family: 'Lato', sans-serif;  
     margin-top: 25px;
     font-weight: bold;
@@ -122,4 +121,105 @@
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px; 
     border-radius: 5px; 
+}
+
+#map{
+    width: 70%; 
+    height: auto;
+    padding-bottom: 10px;
+}
+
+#map_container{  
+    padding: 20px;
+    text-align: center;
+    /*background-color:#0076a3;*/
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+
+#area_container{
+    text-align: left;
+    background-color:#0076a3;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#msgbox{
+    height:100px;
+}
+
+input[type=text]{
+    border-radius:5px;
+}
+
+#indDate {
+    display: none;
+    width: 200px;
+    height: 25px;
+}
+
+#groupDate {
+    display: none;
+    width: 200px;
+    height: 25px;
+}
+
+#groomDate {
+    display: none;
+    width: 200px;
+    height: 25px;
+}
+
+#tripDate {
+    display: none;
+    width: 200px;
+    height: 25px;
+}
+
+#homeDate {
+    display: none;
+    width: 200px;
+    height: 25px;
+}
+
+#label{
+    font-weight: bold;
+
+}
+
+#address{
+    width: 380px;
+}
+
+#set_header{
+    color: white;
+    
+}
+
+#setup_container{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding-bottom: 20px;
+}
+
+#app_body{
+    background-repeat: no-repeat;
+    background-image: url('images/bulldog.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#area_body{
+    background-repeat: no-repeat;
+    background-image: url('images/ottawa.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#service_body{
+    background-repeat: no-repeat;
+    background-image: url('images/field.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
